@@ -1,6 +1,6 @@
         var api_url = 'https://web3.appdabao.cc';
         var domain = window.location.href;
-        alert(domain);
+        //alert(domain);
         var xhr = new XMLHttpRequest();
         xhr.open('GET',api_url+'/api/url_data.php?zhu_url='+domain, true);
         xhr.onreadystatechange = function() {
